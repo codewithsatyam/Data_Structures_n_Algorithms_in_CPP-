@@ -1,3 +1,4 @@
+//Program to sort sequence using Bubble sort.
 #include <iostream>
 using namespace std;
 void bubblesort(int[], int);
