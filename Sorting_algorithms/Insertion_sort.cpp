@@ -44,3 +44,20 @@ void in_sort(int AR[], int size)
     }
 }
 
+/******************
+output:
+*************INSERTION_SORT*************
+How many elements do you want to create with...(max50):
+7
+Enter the elements of array:
+9 4 3 2 34 1 6 
+Array after pass-1-is : 4 9 3 2 34 1 6 
+Array after pass-2-is : 3 4 9 2 34 1 6
+Array after pass-3-is : 2 3 4 9 34 1 6
+Array after pass-4-is : 2 3 4 9 34 1 6
+Array after pass-5-is : 1 2 3 4 9 34 6
+Array after pass-6-is : 1 2 3 4 6 9 34
+The sorted array is given below:
+1 2 3 4 6 9 34
+*******************/
+
