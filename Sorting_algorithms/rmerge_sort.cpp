@@ -75,13 +75,12 @@ void merge_sort(int arr[], int beg, int end)
     if (beg < end)
     {
 
-        mid = (beg + end) / 2;
+        mid = beg + (end - beg) / 2;   //its better to use this statement because some (beg+end)/2 may exceed the max integer value and goes out of space complexity
         merge_sort(arr, beg, mid);
         merge_sort(arr, mid + 1, end);
         merge(arr, beg, mid, end);
     }
 }
-
 
 /******************
 output:
